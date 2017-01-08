@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" 
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.msy.lyj.view.utils.MyImageView
+            android:id="@+id/homefragment_listview_item_head_picture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/headpircture" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/homefragment_listview_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="红泉映马"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/homefragment_listview_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昨天  20:30"
+                android:textColor="#a2a2a2" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <!--
+                 <TextView
+                android:id="@+id/homefragment_listview_item_rmb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="0"
+                android:textColor="#a2a2a2" />
+                -->
+                <!--
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="￥"
+                android:textColor="#a2a2a2" />
+                -->
+            </LinearLayout>
+
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/homefragment_listview_item_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="10dp"
+        android:text="临溪羡鱼，不如退而织网！这是一句多么有哲理的话啊，青年的我们，需要奋斗。" />
+
+    <GridView
+        android:id="@+id/homefragment_listview_item_picture_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_margin="10sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+    <TextView
+                android:id="@+id/homefragment_listview_item_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="洛阳"
+                android:textColor="#a2a2a2" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#55a2a2a2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#88f2f2f2"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/homefragment_listview_pinglun"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/lpublish__select"
+            android:hint="写评论..."
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/homefragment_listview_pinglunButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:src="@drawable/pinglun" />
+
+        <ImageView
+            android:id="@+id/homefragment_listview_item_love"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:src="@drawable/loveon" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:src="@drawable/zhuanfa" />
+    </LinearLayout>
+
+</LinearLayout>

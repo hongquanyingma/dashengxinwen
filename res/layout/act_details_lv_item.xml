@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+      <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        
+        <TextView 
+            android:id="@+id/act_details_item_username_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张三"
+            android:textSize="20dp"
+            android:textColor="#533CEC"
+            android:layout_marginLeft="30dp"
+            />
+        
+        <View
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#22a2a2a2" />
+        <TextView 
+            android:id="@+id/act_details_item_message_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="这是一个值得我们思考的事情，大家深思熟虑，才能做出我们的决定"
+              android:layout_marginLeft="30dp"
+            />
+        
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+</LinearLayout>

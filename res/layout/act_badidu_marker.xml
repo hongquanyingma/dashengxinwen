@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="80dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/map__select"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/act_baidu_marker_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="地点的名称" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#a2a2a2" />
+
+        <TextView
+            android:id="@+id/act_baidu_marker_tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="地点的描述" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/map__select"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/act_baidu_marker_btn1"
+                android:layout_width="60dp"
+                android:background="@drawable/map__select"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="确认" />
+         
+
+            <Button
+                android:id="@+id/act_baidu_marker_btn2"
+                android:layout_width="60dp"
+                android:layout_weight="1"
+                 android:background="@drawable/map__select"
+                android:layout_height="40dp"
+                android:text="取消" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
